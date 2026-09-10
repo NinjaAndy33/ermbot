@@ -306,6 +306,7 @@ bot = Bot(
     allowed_mentions=discord.AllowedMentions(
         replied_user=False, everyone=False, roles=False
     ),
+    activity=discord.CustomActivity(name="⚡ /about | ermbot.xyz"),
 )
 bot.is_synced = False
 bot.shift_management_disabled = False
